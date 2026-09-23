@@ -13,7 +13,7 @@
 <!-- ╚═══════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=%E2%9A%99+I+architect+agents+that+reason%2C+retrieve%2C+and+know+when+to+stop;%F0%9F%93%A6+From+trained+model+to+containerized+API+%E2%80%94+or+it+doesn't+count" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=1600&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=90&lines=Agents+that+reason%2C+retrieve%2C+and+know+when+to+stop.;Model+to+container+to+endpoint+%E2%80%94+or+it+isn't+shipped." alt="Typing SVG" />
 </div>
 
 <br>
@@ -24,19 +24,21 @@
 
 <div align="center">
 
-  <a href="https://linkedin.com/in/dilawar-shakeel-73684a266">
-    <img src="https://img.shields.io/badge/LinkedIn-%40dilawar--shakeel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=302b63" />
+  <a href="https://linkedin.com/in/dilawar-shakeel-73684a266" title="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/A78BFA" width="30" height="30" />
   </a>
-  &ensp;
-  <a href="mailto:acct7415@gmail.com">
-    <img src="https://img.shields.io/badge/Email-acct7415%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&color=302b63" />
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:acct7415@gmail.com" title="Email">
+    <img src="https://cdn.simpleicons.org/gmail/A78BFA" width="30" height="30" />
   </a>
-  &ensp;
-  <a href="https://github.com/dilawar-shakeel">
-    <img src="https://img.shields.io/badge/GitHub-dilawar--shakeel-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=302b63" />
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/dilawar-shakeel" title="GitHub">
+    <img src="https://cdn.simpleicons.org/github/A78BFA" width="30" height="30" />
   </a>
-  &ensp;
-  <img src="https://komarev.com/ghpvc/?username=dilawar-shakeel&style=for-the-badge&color=302b63&label=VISITORS" />
+
+  <br><br>
+
+  <img src="https://komarev.com/ghpvc/?username=dilawar-shakeel&style=flat&color=a78bfa&label=profile+views" />
 
 </div>
 
