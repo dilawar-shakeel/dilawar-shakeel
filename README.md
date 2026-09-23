@@ -1,65 +1,123 @@
-<div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&color=gradient&text=Dilawar%20Shakeel&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&animation=scaleIn" /> </div> <h3 align="center">Applied AI Engineer — I build multi-agent systems, hybrid RAG pipelines, and ML-powered APIs that actually ship.</h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Multi-Agent+Orchestration+%7C+LangChain+%2B+LangGraph;Hybrid+RAG+%7C+PGVector+%2B+BM25+%2B+RRF;ML+Pipelines+%7C+XGBoost+%2B+SHAP+%2B+Platt+Scaling;Shipping+AI+Systems+%7C+FastAPI+%2B+Docker+Compose" alt="Typing SVG" /> </p>
-🚀 Flagship Projects
-<table> <tr> <td width="50%" valign="top">
-🏦 CreditSense
+<div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0d1117,50:161b22,100:0d1117&text=DILAWAR%20SHAKEEL&fontSize=60&fontColor=58a6ff&animation=fadeIn&stroke=58a6ff&strokeWidth=1&desc=Applied%20AI%20Engineer%20%7C%20Multi-Agent%20Systems%20%7C%20Hybrid%20RAG%20%7C%20ML%20Pipelines&descSize=16&descAlignY=75&descColor=8b949e" /> </div> <div align="center"> <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%3E+Building+AI+systems+that+ship%2C+not+just+train;%3E+Agents+%E2%86%92+RAG+%E2%86%92+ML+Pipelines+%E2%86%92+Docker+%E2%86%92+Done." alt="Typing SVG" /> </div> <br> <div align="center"> <a href="https://linkedin.com/in/dilawar-shakeel-73684a266"><img src="https://img.shields.io/badge/-%40dilawar--shakeel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:acct7415@gmail.com"><img src="https://img.shields.io/badge/-acct7415%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a> <img src="https://komarev.com/ghpvc/?username=dilawar-shakeel&style=for-the-badge&color=161b22&label=PROFILE+VIEWS" /> </div> <br> <!-- ═══════════════════════════ SYSTEM STATUS ═══════════════════════════ --> <div align="center"> <table> <tr> <td>
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   > SYSTEM STATUS: ONLINE                                            ║
+║   > ROLE: Applied AI Engineer                                        ║
+║   > LOCATION: Lahore, Pakistan                                       ║
+║   > MISSION: Build AI systems that actually ship                     ║
+║                                                                      ║
+║   > I don't just train models — I orchestrate agents, build          ║
+║     hybrid RAG pipelines, calibrate predictions, add guardrails,     ║
+║     containerize the stack, and hand you a Docker Compose.           ║
+║                                                                      ║
+║   > If it doesn't have an API endpoint, it's not done.               ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+</td> </tr> </table> </div> <br> <!-- ═══════════════════════════ DEPLOYED SYSTEMS ═══════════════════════════ --> <h2 align="center"> <img src="https://media.giphy.com/media/iY8CRBdQFOQ/giphy.gif" width="30" /> &nbsp; Deployed Systems </h2> <br> <div align="center"> <table> <tr> <td width="100%" valign="top"> <h3>🏦 CreditSense — SME Loan Underwriting & Compliance AI</h3> <p> <img src="https://img.shields.io/badge/STATUS-DEPLOYED_LOCALLY-00C853?style=flat-square" /> <img src="https://img.shields.io/badge/PR--AUC-93.90%25-blueviolet?style=flat-square" /> <img src="https://img.shields.io/badge/ROC--AUC-97.76%25-blueviolet?style=flat-square" /> <img src="https://img.shields.io/badge/AGENTS-4_/_Supervised-58a6ff?style=flat-square" /> </p>
 
-SME Loan Underwriting & Compliance Assistant
+A production-grade AI system that automates SME credit decisions while enforcing compliance with Pakistan's State Bank regulations. Not a toy — this has guardrails, explainability, and a supervisor agent that flags edge cases for human review.
 
-An end-to-end AI system that automates credit decisions while enforcing regulatory compliance with Pakistan's SBP regulations.
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                          CREDITSENSE ARCHITECTURE                               │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                 │
+│   📄 Applicant Data                                                             │
+│        │                                                                        │
+│        ▼                                                                        │
+│   ┌──────────────────────┐     ┌──────────────────────┐                         │
+│   │  🤖 AGENT 1          │     │  🔬 STAGE 1 ML       │                         │
+│   │  Financial Analyst   │────▶│  XGBoost Classifier  │                         │
+│   │  (Regex + OCR)       │     │  (18 features)       │                         │
+│   │  No raw numbers      │     │  PR-AUC: 93.90%      │                         │
+│   │  reach the LLM       │     │  + Platt Scaling      │                         │
+│   └──────────────────────┘     └────────┬─────────────┘                         │
+│                                         │                                       │
+│                                         ▼                                       │
+│                                ┌──────────────────────┐                         │
+│                                │  💰 STAGE 2 ML       │                         │
+│                                │  XGBoost Regressor   │                         │
+│                                │  (22 features)       │                         │
+│                                │  Credit Limit Rec.   │                         │
+│                                │  + SHAP Explainer    │                         │
+│                                └────────┬─────────────┘                         │
+│                                         │                                       │
+│                  ┌──────────────────────┐│┌──────────────────────┐              │
+│                  │  🤖 AGENT 2         │││  🤖 AGENT 3          │              │
+│                  │  ML Predictor       │◀┘│  Compliance Checker  │              │
+│                  │  (FastAPI endpoint) │──▶│  (Hybrid RAG)       │              │
+│                  └──────────────────────┘  │  Requires source    │              │
+│                                           │  regulation IDs     │              │
+│                                           └────────┬────────────┘              │
+│                                                    │                            │
+│   ┌───────────────────────────────────────────────────────────────────────┐     │
+│   │                        HYBRID RAG ENGINE                              │     │
+│   │  ┌─────────────┐    ┌─────────────┐    ┌──────────────────────┐      │     │
+│   │  │  PGVector    │    │  TSVector   │    │  Reciprocal Rank    │      │     │
+│   │  │  (Semantic)  │───▶│  (BM25)     │───▶│  Fusion + Reranker  │      │     │
+│   │  └─────────────┘    └─────────────┘    └──────────────────────┘      │     │
+│   └───────────────────────────────────────────────────────────────────────┘     │
+│                                                    │                            │
+│                                                    ▼                            │
+│                                ┌──────────────────────┐                         │
+│                                │  🤖 AGENT 4          │                         │
+│                                │  Supervisor           │                         │
+│                                │  ✅ Approve / 🚩 Flag │                         │
+│                                │  for Human Review     │                         │
+│                                └──────────────────────┘                         │
+│                                                                                 │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  🐳 Docker Compose  │  FastAPI  │  PostgreSQL  │  HTML Frontend                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+<p> <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/-XGBoost-006400?style=flat-square" /> <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/-PGVector-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/-SHAP-4B0082?style=flat-square" /> </p>
 
-What's inside:
+<a href="https://github.com/dilawar-shakeel/CreditSense"><img src="https://img.shields.io/badge/VIEW_REPO_%E2%86%92-161b22?style=for-the-badge" /></a>
 
-🔬 Two-stage ML pipeline — XGBoost classifier (PR-AUC 93.90%, ROC-AUC 97.76%) → XGBoost regressor for credit-limit recommendation
-🧠 4-agent LangChain pipeline with a supervisor pattern — financial analyst → ML predictor → compliance checker → supervisor
-📚 Hybrid RAG — semantic search (PGVector) + BM25 (TSVector), reranked with Reciprocal Rank Fusion
-🛡️ Guardrails — regex/OCR preprocessing keeps raw financials out of the LLM; compliance agent requires source regulation IDs to block hallucinated citations
-📊 SHAP explainability + Platt scaling calibration for transparent, well-calibrated predictions
-🐳 Fully containerized with Docker Compose (FastAPI + PostgreSQL + frontend)
+</td> </tr> </table> </div> <br> <div align="center"> <table> <tr> <td width="50%" valign="top"> <h3>⚡ QuickQuiz-AI</h3> <p><b>Built in 60 minutes at a Mini AI Hackathon</b></p> <p> <img src="https://img.shields.io/badge/STATUS-SHIPPED-00C853?style=flat-square" /> <img src="https://img.shields.io/badge/BUILD_TIME-60_min-FFD700?style=flat-square" /> </p>
 
-Python XGBoost LangChain FastAPI PGVector Docker SHAP
+Paste any lengthy content → get an LLM summary + 3 MCQ questions to test your comprehension. Concept to working product in one hour.
 
-</td> <td width="50%" valign="top">
-⚡ QuickQuiz-AI
+Content ──▶ GPT-4o-mini ──▶ Summary
+                │
+                └──▶ 3 MCQ Questions
+                       │
+                       └──▶ Self-Assessment
+<p> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white" /> </p>
 
-Content Comprehension Self-Assessment Tool
+<a href="https://github.com/dilawar-shakeel/QuickQuiz-AI"><img src="https://img.shields.io/badge/VIEW_REPO_%E2%86%92-161b22?style=for-the-badge" /></a>
 
-Built in a 60-minute mini AI hackathon. Paste lengthy content → get an LLM-powered summary + 3 MCQ questions to test understanding.
+</td> <td width="50%" valign="top"> <h3>👁️ SFRAS</h3> <p><b>Smart Facial Recognition & Attendance System</b></p> <p> <img src="https://img.shields.io/badge/STATUS-COMPLETE-00C853?style=flat-square" /> </p>
 
-What's inside:
+Real-time multi-camera attendance tracking with face detection (MTCNN) and recognition (DeepFace). Threaded camera streams, interactive PyQt5 dashboard, MongoDB backend.
 
-🤖 GPT-4o-mini for summarization and structured question generation
-⚙️ FastAPI backend + Streamlit frontend
-🏃 Designed for speed — concept to working app in one hour
+Camera Streams ──▶ MTCNN Detection
+    (threaded)         │
+                       ▼
+                  DeepFace Match
+                       │
+                       ▼
+              MongoDB ◀── PyQt5 GUI
+              (records)   (live view)
+<p> <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" /> <img src="https://img.shields.io/badge/-DeepFace-FF6F00?style=flat-square" /> <img src="https://img.shields.io/badge/-PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white" /> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> </p>
 
-FastAPI Streamlit OpenAI API GPT-4o-mini
+<a href="https://github.com/dilawar-shakeel/SFRAS"><img src="https://img.shields.io/badge/VIEW_REPO_%E2%86%92-161b22?style=for-the-badge" /></a>
 
+</td> </tr> </table> </div> <br> <!-- ═══════════════════════════ ARSENAL ═══════════════════════════ --> <h2 align="center">🛠️ Arsenal</h2> <div align="center"> <table> <tr> <td align="center" width="140"><b>Agents &<br/>Orchestration</b></td> <td align="center" width="140"><b>RAG &<br/>Retrieval</b></td> <td align="center" width="140"><b>ML &<br/>Evaluation</b></td> <td align="center" width="140"><b>Backend &<br/>Infra</b></td> <td align="center" width="140"><b>Languages</b></td> </tr> <tr> <td align="center" valign="top"> <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /><br> <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /><br> <img src="https://img.shields.io/badge/-CrewAI-FF6B6B?style=flat-square" /><br> <img src="https://img.shields.io/badge/-MCP-58a6ff?style=flat-square" /><br> <img src="https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" /><br> <img src="https://img.shields.io/badge/-Prompt_Eng-8b949e?style=flat-square" /> </td> <td align="center" valign="top"> <img src="https://img.shields.io/badge/-PGVector-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br> <img src="https://img.shields.io/badge/-BM25_(TSVector)-4169E1?style=flat-square" /><br> <img src="https://img.shields.io/badge/-Hybrid_RAG-blueviolet?style=flat-square" /><br> <img src="https://img.shields.io/badge/-RRF_Reranking-blueviolet?style=flat-square" /><br> <img src="https://img.shields.io/badge/-Embeddings-2E9EF7?style=flat-square" /><br> <img src="https://img.shields.io/badge/-Semantic_Chunking-2E9EF7?style=flat-square" /> </td> <td align="center" valign="top"> <img src="https://img.shields.io/badge/-XGBoost-006400?style=flat-square" /><br> <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" /><br> <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /><br> <img src="https://img.shields.io/badge/-SHAP-4B0082?style=flat-square" /><br> <img src="https://img.shields.io/badge/-Platt_Scaling-4B0082?style=flat-square" /><br> <img src="https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /><br> <img src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> </td> <td align="center" valign="top"> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br> <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /><br> <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br> <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" /> </td> <td align="center" valign="top"> <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br> <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /><br> <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /><br> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> </td> </tr> </table> </div> <br> <!-- ═══════════════════════════ CURRENT MISSION ═══════════════════════════ --> <h2 align="center">🧭 Current Mission</h2> <div align="center"> <table> <tr> <td>
+diff
++ ACTIVE    → Deploying CreditSense to cloud with CI/CD pipeline
++ ACTIVE    → Building RAG evaluation benchmarks (retrieval precision, answer faithfulness)
+! LEARNING  → LangGraph for stateful agent workflows with human-in-the-loop
+! LEARNING  → LoRA fine-tuning for domain-specific LLM adaptation
+# SHIPPED   → CreditSense — 4-agent pipeline + hybrid RAG + ML pipeline
+# SHIPPED   → QuickQuiz-AI — built in 60 min at hackathon
+# SHIPPED   → SFRAS — facial recognition attendance system
+</td> </tr> </table> </div> <br> <!-- ═══════════════════════════ METRICS ═══════════════════════════ --> <h2 align="center">📊 Metrics</h2> <div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=dilawar-shakeel&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="170" /> <img src="https://github-readme-streak-stats.herokuapp.com?user=dilawar-shakeel&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" height="170" /> </div> <br> <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=dilawar-shakeel&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff" width="95%" /> </div> <br> <!-- ═══════════════════════════ SNAKE ═══════════════════════════ --> <div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dilawar-shakeel/dilawar-shakeel/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dilawar-shakeel/dilawar-shakeel/output/github-snake.svg" /> <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/dilawar-shakeel/dilawar-shakeel/output/github-snake.svg" width="100%" /> </picture> </div> <br> <!-- ═══════════════════════════ FOOTER ═══════════════════════════ --> <div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="70%" />
+
+<br><br>
+
+"If it doesn't have an API endpoint, it's not done." — me, probably
 <br>
-👁️ SFRAS
 
-Smart Facial Recognition & Attendance System
+<a href="https://linkedin.com/in/dilawar-shakeel-73684a266"><img src="https://img.shields.io/badge/HIRE_ME-Let's_Talk-58a6ff?style=for-the-badge" /></a>
 
-AI-powered attendance tracking with real-time multi-camera support.
-
-🎯 MTCNN face detection + DeepFace recognition
-🖥️ PyQt5 GUI with live monitoring dashboard
-🧵 Python threading for concurrent camera streams
-🗄️ MongoDB for attendance records
-
-Python OpenCV DeepFace PyQt5 MongoDB
-
-</td> </tr> </table>
-🛠️ Tech Stack
-<table> <tr> <td><b>AI / ML</b></td> <td> <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/-CrewAI-FF6B6B?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/-XGBoost-006400?style=flat-square" /> <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" /> <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> <img src="https://img.shields.io/badge/-SHAP-4B0082?style=flat-square" /> </td> </tr> <tr> <td><b>RAG & Vector</b></td> <td> <img src="https://img.shields.io/badge/-PGVector-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/-BM25_(TSVector)-4169E1?style=flat-square" /> <img src="https://img.shields.io/badge/-Embeddings-2E9EF7?style=flat-square" /> <img src="https://img.shields.io/badge/-RRF_Reranking-2E9EF7?style=flat-square" /> </td> </tr> <tr> <td><b>Backend & DevOps</b></td> <td> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> </td> </tr> <tr> <td><b>Languages</b></td> <td> <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> </td> </tr> </table>
-🧭 What I'm Focused On
-🔭 Building production-grade agentic AI systems — multi-agent orchestration with guardrails, not just chatbot wrappers
-🌱 Going deeper into LangGraph for stateful agent workflows and LoRA fine-tuning for domain-specific models
-🎯 Next milestone: deploying CreditSense to cloud with CI/CD and adding evaluation benchmarks for the RAG pipeline
-💡 Philosophy: If it doesn't ship, it doesn't count. Every project gets an API, a container, and a README.
-📊 GitHub Stats
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=dilawar-shakeel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" alt="stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilawar-shakeel&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="languages" /> </div> <div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com?user=dilawar-shakeel&theme=tokyonight&hide_border=true" height="160" alt="streak" /> </div>
-<div align="center">
-🤝 Let's Connect
-
-LinkedIn Email
-
-</div> <div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=gradient" /> </div>
+</div> <div align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=80&section=footer&color=0:0d1117,50:161b22,100:0d1117" /> </div>
